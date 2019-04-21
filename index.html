@@ -118,7 +118,7 @@ var app = new Vue({
   methods: {
     getData() {
       const vm = this;
-      const api = 'http://opendata2.epa.gov.tw/AQI.json';
+      const api = 'https://class90431.github.io/Vue-airAPI-practice/data.json';
       // 使用 jQuery ajax
       $.get(api).then(function( response ) {
         vm.data = response;
